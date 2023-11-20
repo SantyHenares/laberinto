@@ -1,0 +1,100 @@
+body{
+    background-color: #7E837D;
+    font-family: gagalin;
+    color: #fff;
+}
+
+/*--------------------
+        Navbar
+ -------------------*/
+
+/*----------------------
+        HOME
+ ----------------------*/
+
+h1{
+    font-size: 80px;
+}
+
+.laberinto{
+    background-image: url("../assets/img/laberinto.png");
+    background-size: cover;
+    height: 600px;
+}
+
+.body-asombro{
+    background-color: #E1C571;
+}
+.asombro{
+    background-image: url("../assets/img/asombro.jpg");
+    background-size: cover;
+    height: 600px;
+}
+
+.body-autoconciencia{
+    background-color: #72543A;
+}
+.autoconciencia{
+    background-image: url("../assets/img/autoconciencia.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+.body-empatia{
+    background-color: #8E877F;
+}
+.empatia{
+    background-image: url("../assets/img/empatia.png");
+    background-size: cover;
+    height: 600px;
+}
+
+.body-miradas{
+    background-color: #7E837D;
+}
+.miradas{
+    background-image: url("../assets/img/miradas.png");
+    background-size: cover;
+    height: 600px;
+}
+
+.body-palabra{
+    background-color: #EFE4D2;
+}
+.palabra{
+    background-image: url("../assets/img/palabra.png");
+    background-size: cover;
+    height: 600px;
+}
+
+.body-silencio{
+    background-color: #CF9D86;
+}
+.silencio{
+    background-image: url("../assets/img/silencio.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+.body-unidad{
+    background-color: #816B53;
+}
+.unidad{
+    background-image: url("../assets/img/unidad.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 600px;
+}
+
+.body-vivir{
+    background-color: #897D71;
+}
+.vivir{
+    background-image: url("../assets/img/vivir.png");
+    background-size: cover;
+    height: 600px;
+}
