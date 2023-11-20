@@ -36,6 +36,7 @@ h1{
 }
 .autoconciencia{
     background-image: url("../assets/img/autoconciencia.png");
+    background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
     height: 600px;
@@ -53,18 +54,15 @@ h1{
 .body-miradas{
     background-color: #7E837D;
 }
-.miradas{
-    background-image: url("../assets/img/miradas.png");
-    background-size: cover;
-    height: 600px;
-}
 
 .body-palabra{
     background-color: #EFE4D2;
+    color: darkslategray;
 }
 .palabra{
     background-image: url("../assets/img/palabra.png");
     background-size: cover;
+    background-position: center;
     height: 600px;
 }
 
@@ -96,5 +94,53 @@ h1{
 .vivir{
     background-image: url("../assets/img/vivir.png");
     background-size: cover;
+    background-position: right;
     height: 600px;
+}
+
+video{
+    padding-top: 50px;
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 992px) {
+    .height-responsive{
+        height:600px;
+    }
+    .height-responsive h1{
+        font-size: 50px;
+    }
+    .body-autoconciencia h1{
+        font-size: 30px;
+    }
+    .body-autoconciencia .height-responsive{
+        height: 300px;
+    }
+    .autoconciencia{
+        background-position:top;
+        height: 200px;
+    }
+    .body-palabra .height-responsive{
+        height: 400px;
+    }
+    .palabra{
+        height: 400px;
+    }
+    .video-responsive{
+        height: 300px;
+    }
+    .body-silencio .height-responsive{
+        height: 200px;
+    }
+    .body-unidad .height-responsive{
+        height: 300px;
+    }
+    .body-vivir .height-responsive{
+        height: 400px;
+    }
+    .vivir{
+        height: 300px;
+        background-position: right;
+    }
 }

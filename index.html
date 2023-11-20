@@ -8,8 +8,6 @@
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
@@ -22,8 +20,8 @@
             class="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
@@ -68,6 +66,9 @@
               <li class="nav-item">
                 <a class="nav-link" href="./palabra.html">Palabra</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./reflexion.html">Reflexión</a>
+              </li>
             </ul>
           </div>
         </div>
@@ -75,30 +76,22 @@
     </header>
     <section class="container-fluid">
       <div class="row">
-        <div class="col-5 d-flex align-items-center">
-          <h1>BIENVENIDOS A LABERINTOS</h1>
+        <div class="col-lg-5 d-flex align-items-center height-responsive">
+          <div id="contenedor" class="flex-column">
+            <h1 id="miElemento" class="mb-4">BIENVENIDOS A LABERINTOS</h1>
+            <button id="miBoton" onclick="cambiarElemento()">
+              Introducción
+            </button>
+          </div>
         </div>
-        <div class="col-7 laberinto"></div>
+        <div class="col-lg-7 laberinto"></div>
       </div>
-
-      <p>
-        En este espacio, quiero compartir contigo un viaje a través de
-        experiencias y conocimientos que he adquirido a lo largo de mi vida. Mi
-        enfoque se basa en una búsqueda constante de comprensión y armonía en el
-        laberinto de la existencia. A medida que exploramos este viaje juntos,
-        descubriremos cómo las enseñanzas filosóficas se entrelazan con las
-        experiencias de la vida cotidiana. Mi objetivo es proporcionar una
-        perspectiva única y valiosa que pueda inspirarte, motivarte y, sobre
-        todo, fomentar la reflexión. La integración filosófica, para mí, es un
-        camino hacia la sabiduría práctica y la autenticidad. Te invito a unirte
-        a este viaje de autodescubrimiento y crecimiento personal. ¡Gracias por
-        ser parte de esta comunidad!
-      </p>
     </section>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
+    <script src="./js/main.js"></script>
   </body>
 </html>
