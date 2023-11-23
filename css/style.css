@@ -143,4 +143,17 @@ video{
         height: 300px;
         background-position: right;
     }
+    .unidad{
+        height: 500px;
+        background-position: cover;
+    }
+}
+
+/* iconos */
+.bi::before{
+    font-size: 30px;
+}
+
+span{
+    display: flex;
 }
