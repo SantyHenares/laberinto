@@ -156,6 +156,9 @@ video{
         height: 500px;
         background-position: cover;
     }
+    iframe{
+        height: 360px;
+    }
 }
 
 /* iconos */
